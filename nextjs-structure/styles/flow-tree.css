@@ -640,6 +640,58 @@
 
 .home-page .flow-leaf { min-height: 0; height: min(112px, 19%); }
 
+.home-page .flow-root,
+.home-page .flow-hub,
+.home-page .flow-leaf {
+  transform-origin: center center;
+  transition: transform .3s ease, background-color .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+
+.home-page .flow-root:hover,
+.home-page .flow-hub:hover,
+.home-page .flow-leaf:hover {
+  background: rgba(255,255,255,.23);
+  border-color: rgba(244,255,251,.78);
+  box-shadow: 0 16px 30px rgba(1,48,45,.2), inset 0 1px rgba(255,255,255,.22);
+  transform: translateX(-50%) scale(.975);
+}
+
+.home-page .flow-root { transform-origin: center top; }
+
+.home-page .product-evidence .solution-image {
+  display: block;
+  height: auto;
+  padding: 0;
+  background: linear-gradient(145deg, #e8f5f0, #d8ece6);
+}
+
+.home-page .product-evidence .solution-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+  transform: scale(1);
+  transition: filter .4s ease, transform .4s ease;
+}
+
+.home-page .product-evidence .solution-card {
+  transition: border-color .3s ease, box-shadow .3s ease;
+}
+
+.home-page .product-evidence .solution-card:hover {
+  border-color: #91c5b4;
+  box-shadow: 0 12px 26px rgba(8, 83, 75, .1);
+}
+
+.home-page .product-evidence .solution-card:hover .solution-image img {
+  filter: saturate(1.035);
+  transform: scale(1);
+}
+
 @media (max-width: 900px) {
   .home-page .flow-tree {
     display: grid;
@@ -663,6 +715,9 @@
     padding: clamp(9px, 1.5vw, 14px);
   }
   .home-page .flow-scroll-hint { display: none; }
+  .home-page .flow-root:hover,
+  .home-page .flow-hub:hover,
+  .home-page .flow-leaf:hover { transform: scale(.975); }
 }
 
 @media (max-width: 600px) {

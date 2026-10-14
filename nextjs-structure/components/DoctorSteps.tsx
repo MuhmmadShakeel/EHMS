@@ -3,9 +3,9 @@
 import { useState } from "react";
 
 const steps = [
-  { number: "01", title: "Guide the patient journey", text: "Configure stages from registration and vitals through consultation, lab, pharmacy and check-out." },
-  { number: "02", title: "See the queue clearly", text: "Keep live waits, stuck visits and the next handoff visible to the teams managing the day." },
-  { number: "03", title: "Keep work connected", text: "Bring clinical services, billing and hospital operations into a more consistent workspace." }
+  { number: "01", title: "Track each patient visit", text: "Set stages for registration, vitals, consultation, lab, pharmacy and checkout." },
+  { number: "02", title: "Manage the OPD queue", text: "See waiting patients, active consultations and visits that need attention." },
+  { number: "03", title: "Connect hospital teams", text: "Keep clinical services, billing and daily operations in the same workflow." }
 ];
 
 export default function DoctorSteps() {

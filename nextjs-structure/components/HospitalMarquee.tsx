@@ -34,8 +34,8 @@ export default function HospitalMarquee({ hospitals }: HospitalMarqueeProps) {
 
   return <section className="hospitals-section" aria-labelledby="hospitals-heading">
     <div className="container hospitals-heading">
-      <h2 id="hospitals-heading">Made for teams who put care first.</h2>
-      <p>Illustrative hospital identities for this frontend concept.</p>
+      <h2 id="hospitals-heading">Hospital software for every care team.</h2>
+      <p>Example hospital identities shown for illustration.</p>
     </div>
     <div className="hospitals-motion" aria-hidden="true">
       <Marquee>

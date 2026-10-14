@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import HospitalMarquee, { type Hospital } from "../components/HospitalMarquee";
 import FlowTreeViewport from "../components/FlowTreeViewport";
 import CareCapabilities from "../components/CareCapabilities";
@@ -17,13 +18,18 @@ const sampleHospitals: Hospital[] = [
   { name: "Serein Clinics", logo: "/media/hospital-logos/serein.svg" }
 ];
 
+export const metadata: Metadata = {
+  title: "Hospital Management Software for Patient Care and Operations | EHMS",
+  description: "Explore EHMS hospital management software for patient registration, OPD queues, bed management, surgery scheduling, stock planning and hospital finance."
+};
+
 const modules = [
-  { number: "01", category: "PATIENT FLOW", title: "Patient journeys", body: "Keep registration, appointments and OPD handoffs in one clear flow.", image: "/media/journey-stages.webp", alt: "EHMS patient journey stage configuration" },
-  { number: "02", category: "FRONT DESK", title: "Live OPD queue", body: "See who is waiting, who is being seen, and which visit needs attention.", image: "/media/opd-queue.webp", alt: "EHMS OPD queue without patient records" },
-  { number: "03", category: "WARD MANAGEMENT", title: "Bed management", body: "Give ward teams a clear view of occupancy, availability and patient placement.", image: "/media/bed-board.webp", alt: "EHMS hospital bed board" },
-  { number: "04", category: "SURGERY", title: "Surgery schedule", body: "Keep upcoming cases, booking status and required advances in one view.", image: "/media/surgery-schedule.webp", alt: "EHMS surgery schedule interface" },
-  { number: "05", category: "PROCUREMENT", title: "Stock forecast", body: "Compare the supplies planned for booked cases with stock on hand.", image: "/media/stock-forecast.webp", alt: "EHMS operating theatre stock forecast" },
-  { number: "06", category: "ADMINISTRATION", title: "Charity funds", body: "Track each fund and its available balance with a dedicated ledger.", image: "/media/charity-funds.webp", alt: "EHMS charity funds ledger and balances" }
+  { number: "01", category: "PATIENT FLOW", title: "Patient journey tracking", body: "Link registration, appointments and OPD visits in a guided patient workflow.", image: "/media/journey-stages.webp", alt: "EHMS patient journey stage configuration" },
+  { number: "02", category: "FRONT DESK", title: "Live OPD queue", body: "Track waiting patients, consultations and delays from the front desk.", image: "/media/opd-queue.webp", alt: "EHMS outpatient queue showing waiting and active visits" },
+  { number: "03", category: "WARD MANAGEMENT", title: "Hospital bed management", body: "Check ward occupancy, open beds and patient placement in one board.", image: "/media/bed-board.webp", alt: "EHMS hospital bed board" },
+  { number: "04", category: "SURGERY", title: "Surgery scheduling", body: "Review theatre bookings, upcoming cases and required advances together.", image: "/media/surgery-schedule.webp", alt: "EHMS surgery schedule interface" },
+  { number: "05", category: "PROCUREMENT", title: "Hospital stock forecast", body: "Compare supplies needed for booked procedures with stock on hand.", image: "/media/stock-forecast.webp", alt: "EHMS operating theatre stock forecast" },
+  { number: "06", category: "ADMINISTRATION", title: "Charity fund tracking", body: "See fund balances and activity in separate hospital finance ledgers.", image: "/media/charity-funds.webp", alt: "EHMS charity funds ledger and balances" }
 ];
 
 const orbitBubbles = Array.from({ length: 11 }, (_, index) => {
@@ -43,11 +49,11 @@ export default function Home() {
         {Array.from({ length: 12 }, (_, index) => <span key={index} />)}
       </div>
       <div className="container hero-content">
-        <h1 id="hero-title">More time for care.<br/><em>Less friction</em> everywhere.</h1>
-        <p className="hero-lede">One connected workspace for every step of hospital care.</p>
-        <div className="hero-actions"><a className="button button-light" href="#platform">Explore the platform <span aria-hidden="true">↗</span></a><a className="button button-outline" href="#contact">Talk to our team <span aria-hidden="true">→</span></a></div>
-        <div className="hero-caption"><span className="caption-pulse"></span> Built around the real rhythm of hospital work</div>
-        <p className="hero-project">An Eaquirstech project · <a href="mailto:teams@eaquirstech.com">teams@eaquirstech.com</a></p>
+        <h1 id="hero-title">Hospital management<br/><em>software built for care.</em></h1>
+        <p className="hero-lede">Patient care and hospital operations in one connected workspace.</p>
+        <div className="hero-actions"><a className="button button-light" href="#platform">Explore EHMS <span aria-hidden="true">&rarr;</span></a><a className="button button-outline" href="#contact">Talk to our team <span aria-hidden="true">&rarr;</span></a></div>
+        <div className="hero-caption"><span className="caption-pulse"></span> Built for the everyday work of hospital teams</div>
+        <p className="hero-project">An Eaquirstech project. <a href="mailto:teams@eaquirstech.com">teams@eaquirstech.com</a></p>
       </div>
       <div className="hero-gallery" aria-label="EHMS interface preview">
         <div className="hero-screen hero-screen-left">
@@ -79,10 +85,10 @@ export default function Home() {
           <span className="doctor-image-note">Illustrative image</span>
         </div>
         <div className="doctor-copy">
-          <h2 id="doctor-heading">Give every team a<br/><em>clearer next step.</em></h2>
-          <p className="doctor-intro">A busy hospital is a chain of handoffs. EHMS helps staff see where a patient is, what comes next, and which team owns the next action.</p>
+          <h2 id="doctor-heading">Patient care starts with<br/><em>a clear next step.</em></h2>
+          <p className="doctor-intro">From registration to consultation, EHMS helps hospital staff track each patient visit and see which team needs to act next.</p>
           <DoctorSteps />
-          <a className="doctor-link" href="#solutions">Explore the workflows <span aria-hidden="true">↗</span></a>
+          <a className="doctor-link" href="#solutions">Explore hospital workflows <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
     </section>
@@ -90,12 +96,12 @@ export default function Home() {
     <section id="solutions" className="solutions-section" aria-labelledby="flow-heading">
       <div className="flow-stage">
         <div className="container flow-stage-inner">
-          <div className="flow-stage-heading"><h2 id="flow-heading">One journey. Every team connected.</h2><p>Follow care from the first patient touchpoint through clinical services and the operational work that supports it.</p></div>
+          <div className="flow-stage-heading"><h2 id="flow-heading">One patient journey. Every team connected.</h2><p>See how registration, OPD, lab, pharmacy, billing and ward teams work across a hospital visit.</p></div>
           <FlowTreeViewport />
         </div>
       </div>
       <div id="work-context" className="container product-evidence">
-        <h2>See the work in context.</h2>
+        <h2>Hospital workflows at a glance.</h2>
         <div className="solution-grid">{modules.map((module) => <article className="solution-card" key={module.number}><div className="solution-image"><Image src={module.image} alt={module.alt} width={1280} height={720} sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 33vw" /></div><div className="solution-content"><span>{module.number} / {module.category}</span><h3>{module.title}</h3><p>{module.body}</p></div></article>)}</div>
       </div>
     </section>

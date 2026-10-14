@@ -1,12 +1,12 @@
 const leaves = [
-  { group: "CARE DELIVERY", title: "Registration", detail: "One patient identity", icon: "patient", x: 12.5, y: 295 },
-  { group: "CARE DELIVERY", title: "Appointments", detail: "Arrival and tokens", icon: "calendar", x: 37.5, y: 295 },
-  { group: "CARE DELIVERY", title: "OPD & consultation", detail: "A guided handoff", icon: "stethoscope", x: 12.5, y: 455 },
-  { group: "CARE DELIVERY", title: "Lab & results", detail: "Orders to verification", icon: "flask", x: 37.5, y: 455 },
-  { group: "OPERATIONS", title: "Pharmacy", detail: "Prescription to dispense", icon: "pill", x: 62.5, y: 295 },
-  { group: "OPERATIONS", title: "Billing & funds", detail: "Traceable payments", icon: "receipt", x: 87.5, y: 295 },
-  { group: "OPERATIONS", title: "Beds & surgery", detail: "Capacity and readiness", icon: "bed", x: 62.5, y: 455 },
-  { group: "OPERATIONS", title: "Reports & finance", detail: "The complete picture", icon: "chart", x: 87.5, y: 455 }
+  { group: "CARE DELIVERY", title: "Registration", detail: "Patient records", icon: "patient", x: 12.5, y: 295 },
+  { group: "CARE DELIVERY", title: "Appointments", detail: "Bookings and arrivals", icon: "calendar", x: 37.5, y: 295 },
+  { group: "CARE DELIVERY", title: "OPD consultation", detail: "Live patient queue", icon: "stethoscope", x: 12.5, y: 455 },
+  { group: "CARE DELIVERY", title: "Lab results", detail: "Orders and verification", icon: "flask", x: 37.5, y: 455 },
+  { group: "OPERATIONS", title: "Pharmacy", detail: "Prescriptions and stock", icon: "pill", x: 62.5, y: 295 },
+  { group: "OPERATIONS", title: "Billing and funds", detail: "Payments and ledgers", icon: "receipt", x: 87.5, y: 295 },
+  { group: "OPERATIONS", title: "Beds and surgery", detail: "Wards and schedules", icon: "bed", x: 62.5, y: 455 },
+  { group: "OPERATIONS", title: "Reports and finance", detail: "Hospital oversight", icon: "chart", x: 87.5, y: 455 }
 ] as const;
 
 const branches = [
@@ -48,7 +48,7 @@ export default function ClinicalFlowTree() {
         <path className="flow-branch-signal" d={path} pathLength={100} style={{ animationDelay: `${index * .38}s` }} />
       </g>)}
     </svg>
-    <div className="flow-root"><span className="flow-root-icon"><FlowIcon kind="journey" /></span><span><strong>One connected patient journey</strong><small>From arrival to insight</small></span></div>
+    <div className="flow-root"><span className="flow-root-icon"><FlowIcon kind="journey" /></span><span><strong>Patient journey management</strong><small>From arrival to checkout</small></span></div>
     <div className="flow-hubs">
       <div className="flow-hub flow-hub-care"><FlowIcon kind="care" /><strong>Care delivery</strong></div>
       <div className="flow-hub flow-hub-operations"><FlowIcon kind="operations" /><strong>Hospital operations</strong></div>

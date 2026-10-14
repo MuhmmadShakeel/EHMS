@@ -32,8 +32,8 @@
 .solutions-service-list summary span { font-size: 17px; transition: transform .2s ease; }
 .solutions-service-list details[open] summary span { transform: rotate(45deg); }
 .solutions-service-list details p { margin: 0; padding: 0 16px 15px; color: #def2ea; font-size: 12px; line-height: 1.65; }
-.solutions-services-media { position: relative; overflow: hidden; border: 1px solid #dbeae4; border-radius: 15px; background: #eff7f3; box-shadow: 0 23px 45px rgba(17,74,64,.12); }
-.solutions-services-media img { display: block; width: 100%; height: auto; min-height: 365px; object-fit: cover; object-position: top center; }
+.solutions-services-media { position: relative; overflow: hidden; border: 1px solid #dbeae4; border-radius: 15px; background: #fff; box-shadow: 0 23px 45px rgba(17,74,64,.12); }
+.solutions-services-media img { display: block; width: 100%; height: auto; min-height: 0; object-fit: contain; }
 .solutions-services-media span { position: absolute; right: 14px; bottom: 14px; padding: 7px 10px; border-radius: 5px; background: rgba(9,60,54,.83); color: #fff; font-size: 10px; font-weight: 700; }
 
 .solutions-stories { padding: 82px 0 104px; background: transparent; }
@@ -49,14 +49,17 @@
 
 .solutions-about { padding: 94px 0 103px; background: #064d47; color: #fff; }
 .solutions-about-grid { display: grid; grid-template-columns: .83fr 1.17fr; gap: clamp(42px,5vw,75px); align-items: center; }
-.solutions-about-image { position: relative; overflow: hidden; border-radius: 15px; background: #0b665d; }
-.solutions-about-image img { display: block; width: 100%; height: 540px; object-fit: cover; }
+.solutions-about-image { position: relative; overflow: hidden; border-radius: 15px; background: #0b665d; box-shadow: 0 18px 38px rgba(0,35,31,.12); transition: box-shadow .3s ease; }
+.solutions-about-image:hover { box-shadow: 0 22px 42px rgba(0,35,31,.18); }
+.solutions-about-image img { display: block; width: 100%; height: 540px; object-fit: cover; transition: transform .4s ease; }
+.solutions-about-image:hover img { transform: scale(1.012); }
 .solutions-about-image > span,.solutions-faq-image > span { position: absolute; bottom: 13px; left: 13px; padding: 5px 8px; border-radius: 4px; background: rgba(8,44,41,.68); color: #fff; font-size: 9px; }
 .solutions-about-copy > span { color: #abe8d5; font-size: 10px; font-weight: 800; letter-spacing: 1.7px; }
 .solutions-about-copy h2 { margin: 14px 0 17px; font-family: Manrope,sans-serif; font-size: clamp(34px,3.7vw,48px); line-height: 1.16; letter-spacing: -1.9px; }
 .solutions-about-copy > p { max-width: 620px; margin: 0 0 25px; color: #d5eee5; font-size: 14px; line-height: 1.75; }
 .solutions-about-points { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-bottom: 28px; }
-.solutions-about-points div { min-height: 95px; padding: 18px; border: 1px solid rgba(222,248,238,.18); border-radius: 10px; background: rgba(255,255,255,.08); }
+.solutions-about-points div { min-height: 95px; padding: 18px; border: 1px solid rgba(222,248,238,.18); border-radius: 10px; background: rgba(255,255,255,.08); transition: background-color .3s ease, border-color .3s ease, box-shadow .3s ease; }
+.solutions-about-points div:hover { border-color: rgba(222,248,238,.35); background: rgba(255,255,255,.12); box-shadow: 0 8px 20px rgba(0,35,31,.1); }
 .solutions-about-points strong,.solutions-about-points small { display: block; }
 .solutions-about-points strong { font-family: Manrope,sans-serif; font-size: 13px; }
 .solutions-about-points small { margin-top: 7px; color: #d1eae2; font-size: 11px; line-height: 1.55; }

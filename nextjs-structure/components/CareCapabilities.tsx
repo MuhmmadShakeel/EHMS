@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const features = [
-  { icon: "identity", title: "One patient identity", text: "Search before registration and keep every visit connected to a stable patient record." },
-  { icon: "handoff", title: "Clearer handoffs", text: "Make the next stage, its owner and pending work visible across the care journey." },
-  { icon: "surgery", title: "Surgery readiness", text: "Bring bookings, advances and theatre stock needs into a focused planning view." },
-  { icon: "beds", title: "Beds & wards", text: "See occupancy, availability and cleaning work in the same operational picture." },
-  { icon: "stock", title: "Stock awareness", text: "Compare planned case needs with supplies on hand before the day begins." },
-  { icon: "funds", title: "Traceable funds", text: "Keep charitable balances in their own ledgers and follow how care is funded." }
+  { icon: "identity", title: "Patient registration", text: "Search existing records before registration and link each visit to the right patient." },
+  { icon: "handoff", title: "Clinical handoffs", text: "Show the current care stage, the responsible team and the next action." },
+  { icon: "surgery", title: "Surgery planning", text: "Review bookings, advances and theatre stock before a scheduled case." },
+  { icon: "beds", title: "Beds and wards", text: "See occupied, available and cleaning beds on the hospital bed board." },
+  { icon: "stock", title: "Stock forecasting", text: "Compare supplies required for booked cases with inventory on hand." },
+  { icon: "funds", title: "Charity fund records", text: "Review separate fund ledgers, contributions and available balances." }
 ] as const;
 
 function FeatureIcon({ kind }: { kind: typeof features[number]["icon"] }) {
@@ -24,8 +24,8 @@ export default function CareCapabilities() {
   return <section id="why-ehms" className="care-capabilities" aria-labelledby="capabilities-heading">
     <div className="container">
       <div className="capabilities-heading">
-        <h2 id="capabilities-heading">The details that keep care moving.</h2>
-        <p>From the front desk to the ward and finance office, EHMS gives each team the context it needs for the next step.</p>
+        <h2 id="capabilities-heading">Hospital management features that matter.</h2>
+        <p>Manage patient records, clinical handoffs, beds, surgery, stock and funds from one hospital platform.</p>
       </div>
       <div className="capabilities-layout">
         <div className="capabilities-rail capabilities-rail-left">
@@ -33,7 +33,7 @@ export default function CareCapabilities() {
         </div>
         <div className="capabilities-center">
           <div className="capabilities-image-ring"><Image src="/media/care-team-round.webp" alt="Illustrative healthcare team working together around a tablet" width={620} height={620} sizes="(max-width: 700px) 70vw, 330px" /></div>
-          <span className="capabilities-image-label">One connected team</span>
+          <span className="capabilities-image-label">Connected hospital teams</span>
         </div>
         <div className="capabilities-rail capabilities-rail-right">
           {features.slice(3).map((feature) => <article className="capability-card" key={feature.title}><div className="capability-title"><span className="capability-icon"><FeatureIcon kind={feature.icon}/></span><h3>{feature.title}</h3></div><p>{feature.text}</p></article>)}

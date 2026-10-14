@@ -5,8 +5,8 @@ export default function SiteFooter({ home = false }: { home?: boolean }) {
     <div className="container footer-main">
       <div className="footer-about">
         <Brand footer href="/" />
-        <p>Care connected. Work simplified. A clearer day for every hospital team.</p>
-        <p>EHMS is a project by <a href="https://eaquirstech.com" target="_blank" rel="noopener noreferrer">Eaquirstech</a>, connecting patient journeys, clinical work, and hospital operations.</p>
+        <p>Hospital management software for patient care, clinical teams and daily operations.</p>
+        <p>EHMS is a project by <a href="https://eaquirstech.com" target="_blank" rel="noopener noreferrer">Eaquirstech</a>. Explore patient flow, OPD, wards, surgery and hospital finance.</p>
       </div>
       <nav className="footer-links" aria-label="Footer navigation">
         <h2>Explore</h2>
@@ -18,8 +18,8 @@ export default function SiteFooter({ home = false }: { home?: boolean }) {
         <a href="/#faq">Questions &amp; answers</a>
       </nav>
       <div className="footer-cta">
-        <h2>Let&apos;s make more room<br />for care.</h2>
-        <p>Tell us about your team&apos;s workflows and the challenges you want to solve.</p>
+        <h2>Let&apos;s improve your<br />hospital workflow.</h2>
+        <p>Tell us how your hospital manages patient visits, clinical work and operations today.</p>
         <a className="button button-light" href="https://cal.com/muhammad-safdar-iqbal-xbsbvn/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">Book a call <span aria-hidden="true">↗</span></a>
         <a className="footer-email" href="mailto:teams@eaquirstech.com">teams@eaquirstech.com</a>
       </div>

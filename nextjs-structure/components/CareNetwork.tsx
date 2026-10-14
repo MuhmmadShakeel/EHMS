@@ -1,12 +1,12 @@
 const nodes = [
-  { label: "Registration", detail: "Patient arrives", side: "left", position: "one", number: "01" },
-  { label: "OPD & consultation", detail: "Care moves forward", side: "left", position: "two", number: "02" },
-  { label: "Lab & diagnostics", detail: "Results are connected", side: "left", position: "three", number: "03" },
-  { label: "Pharmacy", detail: "Medicine is dispensed", side: "left", position: "four", number: "04" },
-  { label: "Wards", detail: "Capacity stays visible", side: "right", position: "one", number: "05" },
-  { label: "Surgery", detail: "Plans stay coordinated", side: "right", position: "two", number: "06" },
-  { label: "Stock & supplies", detail: "Essentials are tracked", side: "right", position: "three", number: "07" },
-  { label: "Billing & funds", detail: "Support is traceable", side: "right", position: "four", number: "08" }
+  { label: "Registration", detail: "Patient record starts", side: "left", position: "one", number: "01" },
+  { label: "OPD consultation", detail: "Queue and visits", side: "left", position: "two", number: "02" },
+  { label: "Lab and results", detail: "Orders and reports", side: "left", position: "three", number: "03" },
+  { label: "Pharmacy", detail: "Prescription dispensing", side: "left", position: "four", number: "04" },
+  { label: "Wards", detail: "Bed availability", side: "right", position: "one", number: "05" },
+  { label: "Surgery", detail: "Cases and schedules", side: "right", position: "two", number: "06" },
+  { label: "Stock and supplies", detail: "Inventory and orders", side: "right", position: "three", number: "07" },
+  { label: "Billing and funds", detail: "Payments and ledgers", side: "right", position: "four", number: "08" }
 ];
 
 const desktopPaths = [
@@ -39,7 +39,7 @@ export default function CareNetwork() {
     <svg className="about-network-lines about-network-lines-mobile" viewBox="0 0 360 620" preserveAspectRatio="none" aria-hidden="true">
       {mobilePaths.map((path, index) => <path key={path} d={path} style={{ animationDelay: `${index * .18}s` }} />)}
     </svg>
-    <div className="about-network-hub"><span className="about-network-hub-ring"/><strong>EHMS</strong><small>One connected<br/>care journey</small></div>
+    <div className="about-network-hub"><span className="about-network-hub-ring"/><strong>EHMS</strong><small>Hospital<br/>management</small></div>
     {nodes.map((node) => <div className={`about-network-node about-network-node-${node.side} about-network-node-${node.position}`} key={node.number}><span>{node.number}</span><div><strong>{node.label}</strong><small>{node.detail}</small></div></div>)}
   </div>;
 }

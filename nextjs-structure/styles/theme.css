@@ -53,6 +53,9 @@ html[data-theme="dark"] :is(.doctor-copy h2 em,.preview-copy h2 span,.text-link,
 
 html[data-theme="dark"] :is(.doctor-feature,.doctor-overlay,.solution-card,.product-browser,.float-card,.showcase-floating,.hospital-logo,.faq-item,.faq-item[open],.solutions-story-card,.solutions-faq-list details,.contact-form,.contact-next-grid article,.contact-direct a,.about-globe-label,.about-case-portrait-note) { background: #17332c; border-color: #315249; color: #e9f5f0; }
 html[data-theme="dark"] :is(.feature-timeline-media,.solutions-services-media,.solutions-story-image,.solution-image) { background: #193a31; }
+html[data-theme="dark"] .solutions-services-media { background: #fff; }
+html[data-theme="dark"] .home-page .product-evidence .solution-image,
+html[data-theme="dark"] .home-page .product-evidence .solution-card:hover .solution-image { background: #193a31; }
 html[data-theme="dark"] :is(.doctor-feature,.faq-item,.contact-direct a,.contact-next-grid article,.solution-card,.hospital-logo) :is(strong,h3,summary) { color: #edf8f3; }
 html[data-theme="dark"] :is(.doctor-feature,.faq-item,.contact-direct a,.contact-next-grid article,.solution-card,.hospital-logo) :is(p,small,.doctor-feature-copy > span) { color: #afc8bd; }
 html[data-theme="dark"] .doctor-feature:not(.is-active):hover { background: #245444; border-color: #72d9b6; box-shadow: 0 12px 28px rgba(0, 0, 0, .22); }
@@ -62,6 +65,7 @@ html[data-theme="dark"] .doctor-feature.is-active .doctor-feature-copy > span { 
 html[data-theme="dark"] .solution-card:hover,
 html[data-theme="dark"] .contact-direct a:hover { background: #21473b; border-color: #67c9a8; }
 html[data-theme="dark"] .solution-card:hover { background: #21473b; }
+html[data-theme="dark"] .home-page .product-evidence .solution-card:hover { border-color: #6bc8a8; box-shadow: 0 10px 24px rgba(0,0,0,.16); }
 html[data-theme="dark"] .faq-item[open] { background: #1c3b32; border-color: #65bfa0; }
 html[data-theme="dark"] :is(.browser-top,.contact-context) { border-color: #36564b; }
 html[data-theme="dark"] :is(.feature-number,.doctor-overlay-icon,.float-icon,.faq-plus,.contact-direct-icon,.contact-next-grid article > span) { background: #275344; color: #9cebcf; }

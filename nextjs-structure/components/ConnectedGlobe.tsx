@@ -1,8 +1,8 @@
 const connections = [
-  { title: "Front desk", detail: "Registration & appointments", position: "one" },
-  { title: "Clinical teams", detail: "OPD, lab & pharmacy", position: "two" },
-  { title: "Wards & surgery", detail: "Beds & theatre planning", position: "three" },
-  { title: "Operations", detail: "Stock, billing & funds", position: "four" }
+  { title: "Front desk", detail: "Registration and bookings", position: "one" },
+  { title: "Clinical teams", detail: "OPD, lab and pharmacy", position: "two" },
+  { title: "Wards and surgery", detail: "Beds and theatre plans", position: "three" },
+  { title: "Operations", detail: "Stock, billing and funds", position: "four" }
 ];
 
 export default function ConnectedGlobe() {
@@ -20,7 +20,7 @@ export default function ConnectedGlobe() {
       <circle cx="186" cy="198" r="7" fill="#fff"/><circle cx="333" cy="220" r="6" fill="#fff"/><circle cx="223" cy="337" r="6" fill="#fff"/><circle cx="318" cy="333" r="5" fill="#fff"/>
     </svg>
     <div className="about-globe-orbit" aria-hidden="true"><span/><span/><span/></div>
-    <div className="about-globe-center"><span>EHMS</span><small>Connected care</small></div>
+    <div className="about-globe-center"><span>EHMS</span><small>Hospital teams</small></div>
     {connections.map((connection) => <div className={`about-globe-label about-globe-label-${connection.position}`} key={connection.title}><span className="about-globe-label-dot"/><div><strong>{connection.title}</strong><small>{connection.detail}</small></div></div>)}
   </div>;
 }
