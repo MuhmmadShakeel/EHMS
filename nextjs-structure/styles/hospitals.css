@@ -1,0 +1,157 @@
+.hospitals-section {
+  padding: 215px 0 48px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.hospitals-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.hospitals-heading h2 {
+  font-family: Manrope, sans-serif;
+  font-size: clamp(25px, 2.7vw, 38px);
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+  margin: 13px 0 0;
+}
+
+.hospitals-heading p {
+  margin: 12px 0 0;
+  color: #748783;
+  font-size: 12px;
+}
+
+.hospitals-motion {
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.hospitals-motion marquee {
+  display: block;
+  width: 100%;
+}
+
+.hospital-track {
+  display: inline-flex;
+  align-items: stretch;
+  padding: 8px 0;
+  animation: hospital-flow-right 42s linear infinite;
+  will-change: transform;
+}
+
+.hospital-set {
+  display: flex;
+  flex: none;
+  align-items: stretch;
+  gap: 18px;
+  padding-right: 18px;
+}
+
+@keyframes hospital-flow-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.hospital-logo {
+  display: flex;
+  width: 230px;
+  min-height: 126px;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 18px;
+  border: 1px solid #e0ece7;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 22px rgba(12, 88, 78, .04);
+  text-align: center;
+}
+
+.hospital-logo img {
+  display: block;
+  width: auto;
+  max-width: 170px;
+  height: 57px;
+  object-fit: contain;
+}
+
+.hospital-logo span {
+  color: #526865;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.hospitals-static {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 900px) {
+  .hospitals-section {
+    padding-top: max(18vw, 145px);
+  }
+}
+
+@media (max-width: 600px) {
+  .hospitals-section {
+    padding: 130px 0 45px;
+  }
+
+  .hospitals-heading {
+    margin-bottom: 25px;
+  }
+
+  .hospital-set {
+    gap: 12px;
+    padding-right: 12px;
+  }
+
+  .hospital-logo {
+    width: 170px;
+    min-height: 110px;
+    padding: 12px;
+  }
+
+  .hospital-logo img {
+    max-width: 125px;
+    height: 48px;
+  }
+
+  .hospital-logo span {
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hospitals-motion {
+    display: none;
+  }
+
+  .hospitals-static {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hospital-track {
+    animation: none;
+  }
+}

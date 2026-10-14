@@ -1,0 +1,44 @@
+.reveal-pending {
+  opacity: 0;
+  translate: var(--reveal-x, 0) var(--reveal-y, 18px);
+  transition: opacity .88s cubic-bezier(.22, 1, .36, 1), translate .88s cubic-bezier(.22, 1, .36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal-from-left { --reveal-x: -26px; --reveal-y: 0; }
+.reveal-from-right { --reveal-x: 26px; --reveal-y: 0; }
+
+.reveal-pending.reveal-visible {
+  opacity: 1;
+  translate: 0 0;
+}
+
+/* Hero text animates on every page load; imagery remains still. */
+:is(.hero-content, .features-hero-content, .solutions-hero-content, .about-hero-content) > :is(h1, p, .hero-actions, .hero-caption, .features-hero-actions, .solutions-hero-actions, .about-hero-actions) {
+  animation: hero-text-rise .85s cubic-bezier(.22, 1, .36, 1) both;
+}
+:is(.hero-content, .features-hero-content, .solutions-hero-content, .about-hero-content) > h1 { animation-delay: .08s; }
+:is(.hero-content, .features-hero-content, .solutions-hero-content, .about-hero-content) > p { animation-delay: .18s; }
+:is(.hero-content, .features-hero-content, .solutions-hero-content, .about-hero-content) > :is(.hero-actions, .features-hero-actions, .solutions-hero-actions, .about-hero-actions) { animation-delay: .28s; }
+.hero-content > .hero-caption { animation-delay: .38s; }
+.hero-content > .hero-project { animation-delay: .46s; }
+@keyframes hero-text-rise {
+  from { opacity: 0; translate: 0 22px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+@media (max-width: 700px) {
+  .reveal-pending { --reveal-y: 10px; }
+  .reveal-from-left { --reveal-x: -14px; }
+  .reveal-from-right { --reveal-x: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(.hero-content, .features-hero-content, .solutions-hero-content, .about-hero-content) > :is(h1, p, .hero-actions, .hero-caption, .features-hero-actions, .solutions-hero-actions, .about-hero-actions) { animation: none; }
+  .reveal-pending,
+  .reveal-pending.reveal-visible {
+    opacity: 1;
+    translate: none;
+    transition: none;
+  }
+}

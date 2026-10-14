@@ -1,0 +1,3269 @@
+[
+  {
+    "name": "Dashboard",
+    "href": "https://ehms.eaquirstech.com/dashboard",
+    "buttons": [],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [],
+    "tabs": [],
+    "title": [
+      "Today at the Facility"
+    ]
+  },
+  {
+    "name": "Patients",
+    "href": "https://ehms.eaquirstech.com/patients",
+    "buttons": [
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "MRN",
+      "NAME",
+      "AGE",
+      "ID NUMBER",
+      "GENDER",
+      "BLOOD GROUP",
+      "PHONE",
+      "LEGACY REFERENCE ID",
+      "PATIENT CATEGORY",
+      "STATUS",
+      "REGISTERED",
+      "TIME",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Master patient index — search, manage and import"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Patients"
+    ]
+  },
+  {
+    "name": "Register",
+    "href": "https://ehms.eaquirstech.com/patients/new",
+    "buttons": [
+      "Self",
+      "Relative",
+      "Active",
+      "Inactive",
+      "Register Patient"
+    ],
+    "columns": [],
+    "headings": [
+      "Identity",
+      "Demographics",
+      "Contact",
+      "Additional"
+    ],
+    "labels": [
+      "ID Type",
+      "ID Number",
+      "ID belongs to",
+      "Legacy Reference ID",
+      "First Name *",
+      "Last Name *",
+      "Guardian",
+      "Guardian Name",
+      "Date of Birth",
+      "Gender",
+      "Blood Group",
+      "Marital Status",
+      "Status",
+      "Phone",
+      "Email",
+      "Province",
+      "District",
+      "City",
+      "Street / House",
+      "Emergency Contact",
+      "Emergency Relation",
+      "Emergency Phone",
+      "Remarks",
+      "Photo"
+    ],
+    "sub": [
+      "MRN is assigned automatically via the numbering scheme"
+    ],
+    "tabs": [],
+    "title": [
+      "Register New Patient"
+    ]
+  },
+  {
+    "name": "OPD Queue",
+    "href": "https://ehms.eaquirstech.com/opd/queue",
+    "buttons": [
+      "⌘K · quick actions",
+      "New Appointment",
+      "▦ Table",
+      "⫴ Board"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "LIVE"
+    ],
+    "tabs": [
+      "▦ Table",
+      "⫴ Board"
+    ],
+    "title": [
+      "OPD Queue"
+    ]
+  },
+  {
+    "name": "Appointments",
+    "href": "https://ehms.eaquirstech.com/appointments",
+    "buttons": [
+      "New Appointment",
+      "‹",
+      "›",
+      "Import / Export",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "TOKEN",
+      "PATIENT",
+      "TIME",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Book, reschedule and cancel — any day. Issue a token to put an arrived patient on the board."
+    ],
+    "tabs": [],
+    "title": [
+      "Appointments"
+    ]
+  },
+  {
+    "name": "Visit alerts",
+    "href": "https://ehms.eaquirstech.com/alerts/visit-frequency",
+    "buttons": [
+      "All time",
+      "OPEN BREACHES\n0\nawaiting investigation",
+      "RESOLVED\n0\nclosed with a reason",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PATIENT",
+      "VISITS",
+      "DOCTOR(S) SEEN",
+      "RAISED",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Patients who visited more than the configured threshold — investigate why the case keeps re-presenting."
+    ],
+    "tabs": [],
+    "title": [
+      "Visit-frequency alerts"
+    ]
+  },
+  {
+    "name": "Invoices",
+    "href": "https://ehms.eaquirstech.com/billing/invoices",
+    "buttons": [
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "INVOICE #",
+      "PATIENT",
+      "MRN",
+      "STATUS",
+      "SOURCE",
+      "NET",
+      "BALANCE",
+      "REGISTERED",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Charge capture to cash — draft, finalize, collect."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Invoices"
+    ]
+  },
+  {
+    "name": "Deposits",
+    "href": "https://ehms.eaquirstech.com/billing/deposits",
+    "buttons": [
+      "HELD BALANCE\nPKR —",
+      "APPLIED TO BILLS\n—",
+      "All",
+      "Held (open)",
+      "Held",
+      "Partly applied",
+      "Fully applied",
+      "Refunded",
+      "Expired",
+      "All",
+      "Surgery",
+      "Appointment",
+      "Admission",
+      "Walk-in",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "TAKEN",
+      "PATIENT",
+      "SOURCE",
+      "AMOUNT",
+      "APPLIED",
+      "BALANCE",
+      "AGE",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Patient advances: what was taken, what it paid for, and what is still held."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Deposits"
+    ]
+  },
+  {
+    "name": "Lab Worklist",
+    "href": "https://ehms.eaquirstech.com/lis/worklist",
+    "buttons": [
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "ACCESSION #",
+      "PATIENT",
+      "MRN",
+      "TEST",
+      "STATUS",
+      "SCHEDULED",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Accession, results and verification for lab orders."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Lab Worklist"
+    ]
+  },
+  {
+    "name": "Held carts",
+    "href": "https://ehms.eaquirstech.com/pharmacy/held",
+    "buttons": [
+      "Open (0)",
+      "Discarded (0)"
+    ],
+    "columns": [
+      "RECEIPT",
+      "HELD AT",
+      "PATIENT",
+      "CASHIER",
+      "LINES"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Parked baskets — expire 24h after hold, then move to Discarded."
+    ],
+    "tabs": [],
+    "title": [
+      "Held carts"
+    ]
+  },
+  {
+    "name": "Pharmacy Counter",
+    "href": "https://ehms.eaquirstech.com/pharmacy/pos",
+    "buttons": [
+      "Return",
+      "Find patient\nF4",
+      "Take payment\nF9",
+      "Hold",
+      "Held"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Scan or search, build the basket, take payment"
+    ],
+    "tabs": [],
+    "title": [
+      "Pharmacy Counter"
+    ]
+  },
+  {
+    "name": "Returns",
+    "href": "https://ehms.eaquirstech.com/pharmacy/returns",
+    "buttons": [],
+    "columns": [
+      "RECEIPT",
+      "TIME",
+      "PATIENT",
+      "CASHIER",
+      "STATUS",
+      "VALUE",
+      "GL"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every sale with a reversal — opens the receipt + the refund GL journal."
+    ],
+    "tabs": [],
+    "title": [
+      "Returns"
+    ]
+  },
+  {
+    "name": "Sales",
+    "href": "https://ehms.eaquirstech.com/pharmacy/sales",
+    "buttons": [
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "RECEIPT #",
+      "TIME",
+      "CASHIER",
+      "PATIENT",
+      "STORE",
+      "LINES",
+      "GROSS",
+      "DISCOUNT",
+      "NET",
+      "TENDER",
+      "GL",
+      "SHIFT",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [
+      "Include voided"
+    ],
+    "sub": [
+      "Every receipt the counter posted — drill to the sale, the shift, or the GL journal behind it."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Pharmacy sales"
+    ]
+  },
+  {
+    "name": "Shifts",
+    "href": "https://ehms.eaquirstech.com/pharmacy/shifts",
+    "buttons": [
+      "ALL",
+      "OPEN",
+      "RECONCILED",
+      "LOCKED"
+    ],
+    "columns": [
+      "SHIFT",
+      "CASHIER",
+      "OPENED",
+      "CLOSED",
+      "FLOAT",
+      "SYSTEM",
+      "COUNTED",
+      "VARIANCE",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every drawer the counter opened — Open / Reconciled / Locked."
+    ],
+    "tabs": [],
+    "title": [
+      "Shifts"
+    ]
+  },
+  {
+    "name": "Prescription entry",
+    "href": "https://ehms.eaquirstech.com/prescriptions/new",
+    "buttons": [
+      "Add medicine",
+      "Save prescription"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Patient",
+      "Token\nSo the pharmacy loads it from the QR scan",
+      "Prescribed by\n—\nThe doctor who wrote it (you are recorded as the one who entered it)",
+      "Medicine",
+      "Dosage\n—",
+      "Days",
+      "Quantity\n—\nDosage × days, in the medicine’s unit",
+      "Dispense as written",
+      "Instructions"
+    ],
+    "sub": [
+      "Type the prescription off the paper — who prescribed it and who entered it are kept apart"
+    ],
+    "tabs": [],
+    "title": [
+      "Prescription entry"
+    ]
+  },
+  {
+    "name": "Surgery schedule",
+    "href": "https://ehms.eaquirstech.com/surgery/schedule",
+    "buttons": [
+      "TO SCHEDULE\n0\nAdvised, not yet booked",
+      "UPCOMING\n0\nBooked and advance-paid cases",
+      "AWAITING ADVANCE\n0\nBooked, advance required, none held",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CASE",
+      "PATIENT",
+      "PROCEDURE / PACKAGE",
+      "SURGEON",
+      "DATE",
+      "MONEY",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Who has to be booked, and what is coming up"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Surgery schedule"
+    ]
+  },
+  {
+    "name": "Surgery day",
+    "href": "https://ehms.eaquirstech.com/surgery/day",
+    "buttons": [
+      "Today",
+      "Postpone day",
+      "ON THE BOARD\n0",
+      "LONGEST WAIT\n—",
+      "All 0",
+      "Scheduled 0",
+      "Arrived 0",
+      "In theatre 0",
+      "Completed 0",
+      "Post-op 0",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "QUEUE",
+      "CASE",
+      "PATIENT",
+      "PROCEDURE / PACKAGE",
+      "SURGEON",
+      "MONEY",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "The day's list: who has arrived, who is next, what is held"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Surgery day"
+    ]
+  },
+  {
+    "name": "Cases",
+    "href": "https://ehms.eaquirstech.com/surgery/cases",
+    "buttons": [
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CASE #",
+      "PATIENT",
+      "PROCEDURE / PACKAGE",
+      "SURGEON",
+      "SCHEDULED",
+      "EST. VALUE",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [
+      "Status\nAny\nADVISED\nBOOKED\nADVANCE_PAID\nPRE_OP\nARRIVED\nIN_OR\nCOMPLETED\nPOST_OP\nDISCHARGED\nRECONCILED\nCANCELLED",
+      "Surgeon\nAny",
+      "From",
+      "To"
+    ],
+    "sub": [
+      "Every surgery case, every state — filter by surgeon, status or date range."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Cases"
+    ]
+  },
+  {
+    "name": "Bed board",
+    "href": "https://ehms.eaquirstech.com/ipd/beds",
+    "buttons": [
+      "OCCUPANCY\n0%\n0/0 beds"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Ward by ward — who is in, what is free, what needs cleaning"
+    ],
+    "tabs": [],
+    "title": [
+      "Bed board"
+    ]
+  },
+  {
+    "name": "Admissions",
+    "href": "https://ehms.eaquirstech.com/ipd/admissions",
+    "buttons": [
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "ADMISSION",
+      "PATIENT",
+      "BED",
+      "DOCTOR",
+      "DAYS",
+      "RUNNING BILL",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Everyone currently admitted — days, running bill, bed, doctor"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Admissions"
+    ]
+  },
+  {
+    "name": "Housekeeping",
+    "href": "https://ehms.eaquirstech.com/ipd/housekeeping",
+    "buttons": [
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "BED",
+      "CLASS",
+      "LAST PATIENT",
+      "WAITING",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Beds waiting to be cleaned after a discharge or transfer — oldest first"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Housekeeping"
+    ]
+  },
+  {
+    "name": "Requisitions",
+    "href": "https://ehms.eaquirstech.com/procurement/requisitions",
+    "buttons": [
+      "Suggest",
+      "New requisition",
+      "AWAITING APPROVAL\n—",
+      "NEED YOUR APPROVAL\n—",
+      "DRAFTS\n—",
+      "APPROVED\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "REQ #",
+      "STORE",
+      "STATUS",
+      "ORDERED TO",
+      "LINES",
+      "EST. VALUE",
+      "WAITING",
+      "REQUESTED BY",
+      "Actions"
+    ],
+    "headings": [
+      "By state",
+      "Raised — 6 months",
+      "Pending by store",
+      "Ageing of the approval queue"
+    ],
+    "labels": [],
+    "sub": [
+      "What a store or department needs — tracked through approval to ordering"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Requisitions"
+    ]
+  },
+  {
+    "name": "Purchase orders",
+    "href": "https://ehms.eaquirstech.com/procurement/purchase-orders",
+    "buttons": [
+      "New purchase order",
+      "OPEN (ISSUED / RECEIVING)\n—",
+      "OVERDUE\n—",
+      "PARTIALLY RECEIVED\n—",
+      "FULLY RECEIVED\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PO #",
+      "SUPPLIER",
+      "CHAIN",
+      "STATUS",
+      "TOTAL",
+      "RECEIVED",
+      "BILLED",
+      "EXPECTED",
+      "Actions"
+    ],
+    "headings": [
+      "By state",
+      "Ordered value — 6 months",
+      "Committed by supplier",
+      "Delivery risk (open orders)"
+    ],
+    "labels": [],
+    "sub": [
+      "What we order from one supplier, at what rate"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Purchase orders"
+    ]
+  },
+  {
+    "name": "Goods receipt",
+    "href": "https://ehms.eaquirstech.com/procurement/grns",
+    "buttons": [
+      "QC · Quarantine",
+      "Near-expiry stock",
+      "Receive goods",
+      "RECEIVED TODAY\n—",
+      "AWAITING INVOICE\n—",
+      "NEAR-EXPIRY ACCEPTED\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "GRN #",
+      "SUPPLIER",
+      "FROM",
+      "INVOICE",
+      "VALUE",
+      "VARIANCE",
+      "OPEN",
+      "RECEIVED BY",
+      "Actions"
+    ],
+    "headings": [
+      "Invoice state",
+      "Receipt value — 6 months",
+      "Received by supplier",
+      "Expiry of accepted stock"
+    ],
+    "labels": [],
+    "sub": [
+      "What actually arrived against a purchase order"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Goods receipt"
+    ]
+  },
+  {
+    "name": "Opening stock",
+    "href": "https://ehms.eaquirstech.com/procurement/opening-stock",
+    "buttons": [
+      "OPENING ENTERED\n0\n0% of items initialised",
+      "MOVED AFTER OPENING\n0\nEditing posts a delta, not an overwrite",
+      "Opening-stock ledger",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "Expand",
+      "ITEM",
+      "CURRENT ON-HAND",
+      "OPENING QTY",
+      "UNIT COST",
+      "OPENING VALUE"
+    ],
+    "headings": [],
+    "labels": [
+      "Store",
+      "Ledger\nOpening-stock ledger"
+    ],
+    "sub": [
+      "Set the go-live starting balance for items, per store"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Opening stock"
+    ]
+  },
+  {
+    "name": "Purchase returns",
+    "href": "https://ehms.eaquirstech.com/procurement/returns",
+    "buttons": [
+      "Apr 12, 2026 – Oct 12, 2026",
+      "AWAITING SETTLEMENT\n—",
+      "CREDIT NOTES\n—",
+      "REPLACEMENTS\n—",
+      "REFUNDS\n—",
+      "SETTLED\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "RETURN #",
+      "SUPPLIER",
+      "FROM",
+      "STATUS",
+      "REASON",
+      "SETTLEMENT",
+      "VALUE",
+      "UNRESOLVED",
+      "DAYS",
+      "CREATED",
+      "Actions"
+    ],
+    "headings": [
+      "Returns by reason",
+      "Return value — 6 months",
+      "Top suppliers",
+      "Ageing of open returns"
+    ],
+    "labels": [],
+    "sub": [
+      "Goods sent back to a supplier — replacement, credit or refund"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Purchase returns"
+    ]
+  },
+  {
+    "name": "Supplier invoices",
+    "href": "https://ehms.eaquirstech.com/procurement/supplier-invoices",
+    "buttons": [
+      "New supplier invoice",
+      "ON HOLD\n—",
+      "OUTSTANDING\n—",
+      "OVERDUE\n—",
+      "DUE THIS WEEK\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "INVOICE #",
+      "SUPPLIER",
+      "CHAIN",
+      "STATUS",
+      "TOTAL",
+      "VARIANCE",
+      "DUE DATE",
+      "Actions"
+    ],
+    "headings": [
+      "By state",
+      "Aging",
+      "Forecast",
+      "Payable by supplier"
+    ],
+    "labels": [],
+    "sub": [
+      "What a supplier billed us — matched three ways against the PO and receipts"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Supplier invoices"
+    ]
+  },
+  {
+    "name": "Supplier Payments",
+    "href": "https://ehms.eaquirstech.com/procurement/supplier-payments",
+    "buttons": [
+      "Apr 12, 2026 – Oct 12, 2026",
+      "Pay a supplier",
+      "PAYABLE OUTSTANDING\n—",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "VOUCHER",
+      "PAYEE",
+      "METHOD",
+      "STATUS",
+      "AMOUNT",
+      "DATE"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "What you owe, what you have paid, and cheques not yet cleared"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Supplier Payments"
+    ]
+  },
+  {
+    "name": "Controlled-Drug Register",
+    "href": "https://ehms.eaquirstech.com/procurement/controlled-register",
+    "buttons": [
+      "＋ Filter",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DATE",
+      "DIR",
+      "ITEM",
+      "BATCH / EXPIRY",
+      "QTY",
+      "BALANCE",
+      "SUPPLIER / STORE",
+      "DOCUMENT"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Statutory receiving ledger for controlled & narcotic items — what came in, which batch, from whom, and the running balance"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List"
+    ],
+    "title": [
+      "Controlled-Drug Register"
+    ]
+  },
+  {
+    "name": "Stock Audits",
+    "href": "https://ehms.eaquirstech.com/procurement/stock-audits",
+    "buttons": [
+      "Start audit",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "#",
+      "STORE",
+      "SCOPE",
+      "ITEMS",
+      "VARIANCE",
+      "STARTED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Physical counts against system quantity — variance computed automatically"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Stock Audits"
+    ]
+  },
+  {
+    "name": "Inter-store Transfers",
+    "href": "https://ehms.eaquirstech.com/procurement/stock-transfers",
+    "buttons": [
+      "Request transfer",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "FROM STORE",
+      "TO STORE",
+      "ITEM",
+      "QUANTITY",
+      "REQUESTED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Request → accept or reject → stock moves, both directions"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Inter-store Transfers"
+    ]
+  },
+  {
+    "name": "Internal Need Requests",
+    "href": "https://ehms.eaquirstech.com/procurement/stock-needs",
+    "buttons": [
+      "Raise request",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "REQUESTING STORE",
+      "ITEM",
+      "QUANTITY",
+      "REASON",
+      "REQUESTED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "“We're running low, please send some” — every request needs a reason"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Internal Need Requests"
+    ]
+  },
+  {
+    "name": "OT Stock Forecast",
+    "href": "https://ehms.eaquirstech.com/procurement/stock-forecast",
+    "buttons": [],
+    "columns": [
+      "ITEM",
+      "NEEDED",
+      "ON HAND",
+      "SHORTFALL"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Today's booked cases, summed against on-hand at the OT store"
+    ],
+    "tabs": [],
+    "title": [
+      "OT Stock Forecast"
+    ]
+  },
+  {
+    "name": "Coverage Check",
+    "href": "https://ehms.eaquirstech.com/rcm/eligibility",
+    "buttons": [
+      "Add coverage",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PATIENT",
+      "PAYER",
+      "MEMBER #",
+      "PLAN NAME",
+      "EFFECTIVE FROM",
+      "EFFECTIVE TO",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every patient’s payer coverage, dated — what an invoice checks eligibility against"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Coverage Check"
+    ]
+  },
+  {
+    "name": "Pre-Authorization",
+    "href": "https://ehms.eaquirstech.com/rcm/pre-auth",
+    "buttons": [
+      "Raise request",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "SERVICE",
+      "MODULE",
+      "REQUESTED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Requests requiring payer sign-off before billing — PENDING → APPROVED or DENIED"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Pre-Authorization"
+    ]
+  },
+  {
+    "name": "Claims Register",
+    "href": "https://ehms.eaquirstech.com/rcm/claims",
+    "buttons": [
+      "Build claim",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CLAIM #",
+      "PATIENT",
+      "PAYER",
+      "INVOICE",
+      "PAYER AMOUNT",
+      "PATIENT AMOUNT",
+      "REQUESTED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Built from finalized, payer-billed invoices — DRAFT → SUBMITTED → adjudicated or denied"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Claims Register"
+    ]
+  },
+  {
+    "name": "Denial Workqueue",
+    "href": "https://ehms.eaquirstech.com/rcm/denials",
+    "buttons": [
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CLAIM #",
+      "PATIENT",
+      "PAYER",
+      "REASON",
+      "CATEGORY",
+      "AMOUNT",
+      "RAISED",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every denied claim and claim line — categorize, write off, or appeal."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Denial Workqueue"
+    ]
+  },
+  {
+    "name": "Payer AR Aging",
+    "href": "https://ehms.eaquirstech.com/rcm/aging",
+    "buttons": [
+      "Full AR ageing (patients + payers)",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PAYER",
+      "AGEING",
+      "OUTSTANDING"
+    ],
+    "headings": [
+      "Receivables ageing (by amount outstanding)"
+    ],
+    "labels": [],
+    "sub": [
+      "What every payer still owes, per claim, aged by submission date — not by invoice date"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Payer AR Aging"
+    ]
+  },
+  {
+    "name": "Chart of Accounts",
+    "href": "https://ehms.eaquirstech.com/accounting/chart-of-accounts",
+    "buttons": [
+      "New account",
+      "＋ Filter",
+      "Columns",
+      "▦ Table",
+      "⑂ Tree",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "ACCOUNT",
+      "TYPE",
+      "BALANCE",
+      "ACTIVITY",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "General-ledger master · tenant-wide"
+    ],
+    "tabs": [
+      "▦ Table",
+      "⑂ Tree",
+      "▤ Cards"
+    ],
+    "title": [
+      "Chart of Accounts"
+    ]
+  },
+  {
+    "name": "Trial Balance",
+    "href": "https://ehms.eaquirstech.com/accounting/trial-balance",
+    "buttons": [
+      "Grouped",
+      "Flat",
+      "Jan 01, 2026 – Oct 12, 2026",
+      "Export"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Compare\nNo comparison\nPrior period\nPrior year"
+    ],
+    "sub": [
+      "Every posting account · opening → movement → closing"
+    ],
+    "tabs": [],
+    "title": [
+      "Trial Balance"
+    ]
+  },
+  {
+    "name": "General Ledger",
+    "href": "https://ehms.eaquirstech.com/accounting/ledger",
+    "buttons": [
+      "Select an account…",
+      "Jan 01, 2026 – Oct 12, 2026",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DATE",
+      "JOURNAL #",
+      "NARRATION",
+      "DEBIT",
+      "CREDIT",
+      "BALANCE"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Pick an account"
+    ],
+    "tabs": [],
+    "title": [
+      "General Ledger"
+    ]
+  },
+  {
+    "name": "Profit & Loss",
+    "href": "https://ehms.eaquirstech.com/accounting/profit-loss",
+    "buttons": [
+      "Jan 01, 2026 – Oct 12, 2026"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Compare\nNo comparison\nPrior period\nPrior year"
+    ],
+    "sub": [
+      "Income statement · live from the general ledger"
+    ],
+    "tabs": [],
+    "title": [
+      "Profit & Loss"
+    ]
+  },
+  {
+    "name": "Balance Sheet",
+    "href": "https://ehms.eaquirstech.com/accounting/balance-sheet",
+    "buttons": [],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Compare\nNo comparison\nPrior year",
+      "As of"
+    ],
+    "sub": [
+      "Financial position · live from the general ledger"
+    ],
+    "tabs": [],
+    "title": [
+      "Balance Sheet"
+    ]
+  },
+  {
+    "name": "Cash Flow",
+    "href": "https://ehms.eaquirstech.com/accounting/cash-flow",
+    "buttons": [
+      "Jan 01, 2026 – Oct 12, 2026"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Cash movement by activity · live from the general ledger"
+    ],
+    "tabs": [],
+    "title": [
+      "Cash Flow"
+    ]
+  },
+  {
+    "name": "Cost Centres",
+    "href": "https://ehms.eaquirstech.com/accounting/cost-centers",
+    "buttons": [
+      "Jan 01, 2026 – Oct 12, 2026",
+      "Export"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Departmental P&L · revenue, expense and net by centre"
+    ],
+    "tabs": [],
+    "title": [
+      "Cost Centres"
+    ]
+  },
+  {
+    "name": "Journal Register",
+    "href": "https://ehms.eaquirstech.com/accounting/journals",
+    "buttons": [
+      "All time",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DATE",
+      "JOURNAL #",
+      "NARRATION",
+      "MODULE",
+      "AMOUNT",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every GL journal · the double-entry behind each document"
+    ],
+    "tabs": [],
+    "title": [
+      "Journal Register"
+    ]
+  },
+  {
+    "name": "Manual Journal",
+    "href": "https://ehms.eaquirstech.com/accounting/manual-journal",
+    "buttons": [
+      "Add line",
+      "Review & post"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Date",
+      "Narration"
+    ],
+    "sub": [
+      "Adjusting entries · accruals, corrections, reclassifications"
+    ],
+    "tabs": [],
+    "title": [
+      "Manual Journal"
+    ]
+  },
+  {
+    "name": "GL Exceptions",
+    "href": "https://ehms.eaquirstech.com/accounting/gl-exceptions",
+    "buttons": [
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "SOURCE TYPE",
+      "OCCURRENCES",
+      "OLDEST",
+      "AMOUNT STUCK"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Unmapped postings that block the day-close"
+    ],
+    "tabs": [],
+    "title": [
+      "GL Exceptions"
+    ]
+  },
+  {
+    "name": "Fund Ledger",
+    "href": "https://ehms.eaquirstech.com/accounting/fund-ledger",
+    "buttons": [
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "FUND LEDGER",
+      "NAME",
+      "BALANCE",
+      "MOVEMENTS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Charity funds · zakat, sadqa, trust, charity box"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Fund Ledger"
+    ]
+  },
+  {
+    "name": "Cash Shifts",
+    "href": "https://ehms.eaquirstech.com/accounting/cash-shifts",
+    "buttons": [
+      "All time",
+      "＋ Filter",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "OPENED",
+      "CASHIER",
+      "STATUS",
+      "EXPECTED",
+      "COUNTED",
+      "VARIANCE"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Cashier drawer sessions · float → reconcile → Z-report"
+    ],
+    "tabs": [],
+    "title": [
+      "Cash Shifts"
+    ]
+  },
+  {
+    "name": "Expenses",
+    "href": "https://ehms.eaquirstech.com/accounting/expenses",
+    "buttons": [
+      "New expense",
+      "＋ Filter",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "VOUCHER",
+      "DATE",
+      "EXPENSE ACCOUNT",
+      "PAID TO",
+      "METHOD",
+      "A.EXP.AMOUNT",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Operating expenses & petty cash · posted to the general ledger"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Expenses"
+    ]
+  },
+  {
+    "name": "Treasury",
+    "href": "https://ehms.eaquirstech.com/accounting/treasury",
+    "buttons": [
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "MOVEMENTS",
+      "BALANCE"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Liquidity, payables & cheque float · live from the general ledger"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Treasury"
+    ]
+  },
+  {
+    "name": "Payables Ageing",
+    "href": "https://ehms.eaquirstech.com/accounting/ap-aging",
+    "buttons": [
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "SUPPLIER",
+      "AGEING",
+      "OUTSTANDING"
+    ],
+    "headings": [
+      "Payables ageing (by amount outstanding)"
+    ],
+    "labels": [],
+    "sub": [
+      "What the hospital owes suppliers · aged · live from the general ledger"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Payables Ageing"
+    ]
+  },
+  {
+    "name": "Receivables Ageing",
+    "href": "https://ehms.eaquirstech.com/accounting/ar-aging",
+    "buttons": [
+      "＋ Filter",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DEBTOR",
+      "TYPE",
+      "AGEING",
+      "OUTSTANDING"
+    ],
+    "headings": [
+      "Receivables ageing (by amount outstanding)"
+    ],
+    "labels": [],
+    "sub": [
+      "What is owed to the hospital · aged · patients & payers"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Receivables Ageing"
+    ]
+  },
+  {
+    "name": "Bank Reconciliation",
+    "href": "https://ehms.eaquirstech.com/accounting/bank-reconciliation",
+    "buttons": [
+      "Export",
+      "Import statement"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Match a bank statement to the general ledger"
+    ],
+    "tabs": [],
+    "title": [
+      "Bank Reconciliation"
+    ]
+  },
+  {
+    "name": "Cheques in Hand",
+    "href": "https://ehms.eaquirstech.com/accounting/cheques-in-hand",
+    "buttons": [
+      "RECEIVED\n0\nPKR 0",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CHEQUE #",
+      "BANK",
+      "PATIENT",
+      "INVOICE",
+      "CHEQUE DATE",
+      "AMOUNT",
+      "MODE",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Every patient cheque received, tracked through clearing or bounce"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Cheques in Hand"
+    ]
+  },
+  {
+    "name": "Day Close",
+    "href": "https://ehms.eaquirstech.com/accounting/day-close",
+    "buttons": [
+      "Month-end close"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Facility financial close"
+    ],
+    "tabs": [],
+    "title": [
+      "Day Close"
+    ]
+  },
+  {
+    "name": "Period Close",
+    "href": "https://ehms.eaquirstech.com/accounting/period-close",
+    "buttons": [
+      "Day Close",
+      "Export"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Lock accounting periods · posting freeze"
+    ],
+    "tabs": [],
+    "title": [
+      "Period Close"
+    ]
+  },
+  {
+    "name": "Opening — Patients",
+    "href": "https://ehms.eaquirstech.com/accounting/opening-balances/patients",
+    "buttons": [
+      "Opening Balance Equity (3001)…",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "MRN",
+      "NAME",
+      "OPENING RECEIVABLE (THEY OWE YOU)",
+      "GL"
+    ],
+    "headings": [],
+    "labels": [
+      "Counter ledger\nOpening Balance Equity (3001)…",
+      "As-of date"
+    ],
+    "sub": [
+      "Go-live receivables owed by patients. Positive = owes us; negative = advance/credit."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Opening balances — Patients"
+    ]
+  },
+  {
+    "name": "Opening — Payers",
+    "href": "https://ehms.eaquirstech.com/accounting/opening-balances/payers",
+    "buttons": [
+      "Opening Balance Equity (3001)…",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "TYPE",
+      "OPENING RECEIVABLE (THEY OWE YOU)",
+      "GL"
+    ],
+    "headings": [],
+    "labels": [
+      "Counter ledger\nOpening Balance Equity (3001)…",
+      "As-of date"
+    ],
+    "sub": [
+      "Go-live receivables owed by payers / corporate accounts."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Opening balances — Payers"
+    ]
+  },
+  {
+    "name": "Opening — Suppliers",
+    "href": "https://ehms.eaquirstech.com/accounting/opening-balances/suppliers",
+    "buttons": [
+      "Opening Balance Equity (3001)…",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "TYPE",
+      "OPENING PAYABLE (YOU OWE THEM)",
+      "GL"
+    ],
+    "headings": [],
+    "labels": [
+      "Counter ledger\nOpening Balance Equity (3001)…",
+      "As-of date"
+    ],
+    "sub": [
+      "Go-live payables we owe suppliers. Positive = we owe them."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Opening balances — Suppliers"
+    ]
+  },
+  {
+    "name": "Opening — GL accounts",
+    "href": "https://ehms.eaquirstech.com/accounting/opening-balances/gl",
+    "buttons": [
+      "Opening Balance Equity (3001)…",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "ACCOUNT",
+      "NAME",
+      "TYPE",
+      "OPENING BALANCE (DEBIT + / CREDIT −)",
+      "GL"
+    ],
+    "headings": [],
+    "labels": [
+      "Counter ledger\nOpening Balance Equity (3001)…",
+      "As-of date"
+    ],
+    "sub": [
+      "Go-live balance on any posting account. Positive = debit; negative = credit."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Opening balances — GL accounts"
+    ]
+  },
+  {
+    "name": "Employees",
+    "href": "https://ehms.eaquirstech.com/hr/employees",
+    "buttons": [
+      "Add employee",
+      "ACTIVE HEADCOUNT\n—",
+      "JOINED THIS MONTH\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "DESIGNATION",
+      "DEPARTMENT",
+      "TYPE",
+      "GROSS SALARY",
+      "TENURE",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "The staff roster — headcount, salary base, tenure and links to payroll"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Employees"
+    ]
+  },
+  {
+    "name": "Attendance",
+    "href": "https://ehms.eaquirstech.com/hr/attendance",
+    "buttons": [
+      "Import / Export",
+      "All",
+      "Not marked",
+      "Exceptions",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "DEPARTMENT",
+      "PER DAY",
+      "ABSENT",
+      "UNPAID LEAVE",
+      "PAID LEAVE",
+      "PRESENT",
+      "DEDUCTION",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Monthly attendance — mark absence and see the pay it costs, per employee"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Attendance"
+    ]
+  },
+  {
+    "name": "Loans & advances",
+    "href": "https://ehms.eaquirstech.com/hr/loans",
+    "buttons": [
+      "Import / Export",
+      "New loan",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "LOAN #",
+      "EMPLOYEE",
+      "TYPE",
+      "PRINCIPAL",
+      "OUTSTANDING",
+      "NEXT INSTALLMENT",
+      "PAID",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Staff loans as open items — disbursed to GL, recovered via payroll"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Loans & advances"
+    ]
+  },
+  {
+    "name": "Payroll runs",
+    "href": "https://ehms.eaquirstech.com/hr/payroll/runs",
+    "buttons": [
+      "New run",
+      "IN REVIEW\n0\nawaiting approval",
+      "NOT YET POSTED\n0\ndraft / approved, no GL",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PERIOD",
+      "STATUS",
+      "GROSS",
+      "NET",
+      "POSTED",
+      "CREATED"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Generate, review, approve and disburse the monthly payroll"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Payroll runs"
+    ]
+  },
+  {
+    "name": "Doctor accruals",
+    "href": "https://ehms.eaquirstech.com/hr/doctor-accruals",
+    "buttons": [
+      "Import / Export",
+      "Accrue period"
+    ],
+    "columns": [
+      "DOCTOR",
+      "RETAINER",
+      "OUTSTANDING",
+      "ON STAFF",
+      "STATUS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Monthly doctor retainer → Doctor Payable (separate from payroll)"
+    ],
+    "tabs": [],
+    "title": [
+      "Doctor retainer accruals"
+    ]
+  },
+  {
+    "name": "Organisation",
+    "href": "https://ehms.eaquirstech.com/admin/organisation",
+    "buttons": [
+      "Edit details",
+      "Edit letterhead"
+    ],
+    "columns": [],
+    "headings": [
+      "Letterhead extras"
+    ],
+    "labels": [],
+    "sub": [
+      "Your hospital’s own details — these appear on every printed page."
+    ],
+    "tabs": [],
+    "title": [
+      "Organisation"
+    ]
+  },
+  {
+    "name": "Departments",
+    "href": "https://ehms.eaquirstech.com/admin/departments",
+    "buttons": [
+      "New Department",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Clinical departments and their pre-encounter workflow."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Departments"
+    ]
+  },
+  {
+    "name": "Journey Stages",
+    "href": "https://ehms.eaquirstech.com/admin/journey-stages",
+    "buttons": [
+      "Add stage"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Department\nFacility default"
+    ],
+    "sub": [
+      "Configure the per-department stages a patient moves through."
+    ],
+    "tabs": [],
+    "title": [
+      "Journey Stages"
+    ]
+  },
+  {
+    "name": "Doctors",
+    "href": "https://ehms.eaquirstech.com/admin/doctors",
+    "buttons": [
+      "New Doctor",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "NAME",
+      "SPECIALTY",
+      "DEPARTMENTS",
+      "REGISTRATION #",
+      "FEE CONFIGURATION",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Doctor master — specialty, department, registration and fees."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Doctors"
+    ]
+  },
+  {
+    "name": "Doctor scoreboard",
+    "href": "https://ehms.eaquirstech.com/admin/doctors/ranking",
+    "buttons": [
+      "Apr 12, 2026 – Oct 12, 2026",
+      "Columns",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DOCTOR",
+      "PATIENTS SEEN",
+      "BREACHES",
+      "RESOLVED",
+      "SCORE"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Ranked by how many patients each doctor handled without tipping into over-visiting. Score = resolved ÷ seen."
+    ],
+    "tabs": [],
+    "title": [
+      "Doctor scoreboard"
+    ]
+  },
+  {
+    "name": "Services & Tariff",
+    "href": "https://ehms.eaquirstech.com/admin/services",
+    "buttons": [
+      "New Service",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "CATEGORY",
+      "DEPARTMENTS",
+      "DEFAULT PRICE",
+      "STANDARD PRICE",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Service catalog — category drives order routing; price feeds billing."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Services & Tariff"
+    ]
+  },
+  {
+    "name": "Payers",
+    "href": "https://ehms.eaquirstech.com/admin/payers",
+    "buttons": [
+      "New payer",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "TYPE",
+      "STATUS",
+      "PRICE LISTS"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Insurers, corporates and panels the hospital bills beyond a walk-in patient"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Payers"
+    ]
+  },
+  {
+    "name": "Price Lists",
+    "href": "https://ehms.eaquirstech.com/admin/price-lists",
+    "buttons": [
+      "New price list",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "PAYER",
+      "EFFECTIVE FROM",
+      "EFFECTIVE TO",
+      "LINES"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Payer tariffs and the default list, each effective-dated"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Price Lists"
+    ]
+  },
+  {
+    "name": "Surgical Packages",
+    "href": "https://ehms.eaquirstech.com/admin/packages",
+    "buttons": [
+      "How this works",
+      "ACTIVE PACKAGES\n0\n0 inactive · 0 in pipeline",
+      "PRICED BELOW COST\n0\nPackage price is under what the inclusions cost us",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PROCEDURE",
+      "LENS",
+      "CODE",
+      "NAME",
+      "PRICE",
+      "INCLUDED COST",
+      "MARGIN",
+      "CASES",
+      "LAST USED",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [
+      "Packaged cases delivered",
+      "Revenue by package"
+    ],
+    "labels": [],
+    "sub": [
+      "One price the patient hears — and whether it covers what we hand over"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Surgical Packages"
+    ]
+  },
+  {
+    "name": "Package leakage",
+    "href": "https://ehms.eaquirstech.com/admin/packages/leakage",
+    "buttons": [
+      "Jan 01, 2026 – Oct 12, 2026",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "PACKAGE",
+      "LINES",
+      "AMOUNT",
+      "REASON",
+      "LINES",
+      "AMOUNT",
+      "ITEM",
+      "WAIVED ON",
+      "PACKAGE",
+      "ADMISSION",
+      "AMOUNT",
+      "REASON",
+      "NOTE",
+      "AUTHORISED BY"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Medicine the hospital gave away beyond what its packages cover — every waived line, with who authorised it."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Package leakage"
+    ]
+  },
+  {
+    "name": "Operating Theatres",
+    "href": "https://ehms.eaquirstech.com/admin/operating-theatres",
+    "buttons": [
+      "New theatre",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "WORKING HOURS",
+      "AVAILABLE / DAY",
+      "OPEN CASES",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Each theatre has its own working hours — they decide how full the day board says each one is."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Operating Theatres"
+    ]
+  },
+  {
+    "name": "Test Templates",
+    "href": "https://ehms.eaquirstech.com/admin/test-templates",
+    "buttons": [
+      "New Template",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "SERVICE (FEE)",
+      "PRINT LAYOUT",
+      "FIELDS",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Author a test as data — fields, ranges, units and a print layout"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Test Templates"
+    ]
+  },
+  {
+    "name": "Stock Items",
+    "href": "https://ehms.eaquirstech.com/admin/items",
+    "buttons": [
+      "New item",
+      "BELOW REORDER\n—",
+      "OUT OF STOCK\n—",
+      "EXPIRING ≤90D\n—",
+      "DEAD STOCK\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "TYPE",
+      "ON HAND",
+      "COVER",
+      "TREND",
+      "REORDER VALUE",
+      "STOCK VALUE",
+      "SUPPLIERS",
+      "SALE PRICE",
+      "NEAREST EXPIRY",
+      "ACTIVE",
+      "Actions"
+    ],
+    "headings": [
+      "Stock health",
+      "Value by category",
+      "Items by category",
+      "By type"
+    ],
+    "labels": [],
+    "sub": [
+      "Medicines, consumables, implants — the pharmacy & inventory master"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Stock Items"
+    ]
+  },
+  {
+    "name": "Units of measure",
+    "href": "https://ehms.eaquirstech.com/admin/uoms",
+    "buttons": [
+      "Import / Export",
+      "New base unit"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "The unit vocabulary, grouped by base unit — a sub-unit belongs to a base, not just a dimension"
+    ],
+    "tabs": [],
+    "title": [
+      "Units of measure"
+    ]
+  },
+  {
+    "name": "Suppliers",
+    "href": "https://ehms.eaquirstech.com/admin/suppliers",
+    "buttons": [
+      "New supplier",
+      "PAYABLES OUTSTANDING\n—",
+      "OPEN RETURNS\n—",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "ITEMS",
+      "PAYABLES",
+      "OPEN RETURNS",
+      "LEAD",
+      "SCORECARD",
+      "STANDING",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [
+      "By standing",
+      "Payable by supplier",
+      "Items by supplier",
+      "By type"
+    ],
+    "labels": [],
+    "sub": [
+      "Vendors you buy from — per-item rates live on the item form"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Suppliers"
+    ]
+  },
+  {
+    "name": "Stores",
+    "href": "https://ehms.eaquirstech.com/admin/stores",
+    "buttons": [
+      "New store",
+      "BELOW REORDER\n—",
+      "MOVEMENTS TODAY\n—\nin, out, transfers",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "ITEMS",
+      "STOCK VALUE",
+      "BELOW REORDER",
+      "OUT",
+      "TODAY",
+      "NET FLOW 30D",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [
+      "Stock value by store",
+      "Today's movements by store",
+      "By type"
+    ],
+    "labels": [],
+    "sub": [
+      "Physical stock locations — pharmacies, central store, OT"
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Stores"
+    ]
+  },
+  {
+    "name": "Charity Funds",
+    "href": "https://ehms.eaquirstech.com/admin/funds",
+    "buttons": [
+      "New fund",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "TYPE",
+      "LEDGER",
+      "BALANCE",
+      "AVAILABLE",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Trust, zakat, sadqa, charity box — each its own ledger and balance"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Charity Funds"
+    ]
+  },
+  {
+    "name": "Dosages",
+    "href": "https://ehms.eaquirstech.com/admin/dosages",
+    "buttons": [
+      "New dosage",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "NAME",
+      "MORNING · AFTERNOON · EVENING · NIGHT",
+      "PER DAY",
+      "INSTRUCTION",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "The 1×1×1 patterns a doctor picks — and what makes the quantity computable"
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List"
+    ],
+    "title": [
+      "Dosages"
+    ]
+  },
+  {
+    "name": "Diagnoses (ICD-10)",
+    "href": "https://ehms.eaquirstech.com/admin/diagnoses",
+    "buttons": [
+      "New Diagnosis",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "ICD CODE",
+      "NAME",
+      "LOCAL NAME",
+      "NOTIFIABLE",
+      "FOLLOW-UP (DAYS)",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Disease master — ICD codes, custom entries, clinical guidance."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Diagnoses (ICD-10)"
+    ]
+  },
+  {
+    "name": "Lookups",
+    "href": "https://ehms.eaquirstech.com/admin/lookups",
+    "buttons": [
+      "New Type",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "LABEL",
+      "SORT",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Business lists — types, categories, units. Admin-editable, no code."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Lookups"
+    ]
+  },
+  {
+    "name": "Custom Fields",
+    "href": "https://ehms.eaquirstech.com/admin/custom-fields",
+    "buttons": [
+      "New Field",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CODE",
+      "LABEL",
+      "TYPE",
+      "LOOKUP",
+      "APPLIES TO",
+      "REQUIRED",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Design extra form fields; the preview shows exactly what forms render."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Custom Fields"
+    ]
+  },
+  {
+    "name": "Categories",
+    "href": "https://ehms.eaquirstech.com/admin/categories",
+    "buttons": [
+      "New Category",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "CATEGORY",
+      "LABEL",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Grouping tree used by lists, filters and custom-field scoping."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "⫴ Board"
+    ],
+    "title": [
+      "Categories"
+    ]
+  },
+  {
+    "name": "Numbering",
+    "href": "https://ehms.eaquirstech.com/admin/numbering",
+    "buttons": [
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "☰ List",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "DOCUMENT",
+      "PREFIX",
+      "DIGITS",
+      "NEXT #",
+      "SAMPLE",
+      "RESETS",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Document number formats — MRN, invoices, tokens. Forward-only."
+    ],
+    "tabs": [
+      "▦ Table",
+      "☰ List",
+      "▤ Cards"
+    ],
+    "title": [
+      "Numbering"
+    ]
+  },
+  {
+    "name": "System Configuration",
+    "href": "https://ehms.eaquirstech.com/admin/config",
+    "buttons": [
+      "Settings",
+      "Features",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details",
+      "Details"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Show technical keys",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Senior citizen",
+      "Staff",
+      "Medical camp",
+      "Charity",
+      "Inactive",
+      "Medicine",
+      "Surgical supply",
+      "Implant",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Inactive",
+      "Lowercase letter",
+      "Uppercase letter",
+      "Digit",
+      "Symbol"
+    ],
+    "sub": [
+      "Settings and features for this facility. High-impact changes ask you to confirm."
+    ],
+    "tabs": [],
+    "title": [
+      "System Configuration"
+    ]
+  },
+  {
+    "name": "Payroll config",
+    "href": "https://ehms.eaquirstech.com/admin/payroll-config",
+    "buttons": [],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Statutory and run-level knobs for payroll"
+    ],
+    "tabs": [],
+    "title": [
+      "Payroll configuration"
+    ]
+  },
+  {
+    "name": "Print Templates",
+    "href": "https://ehms.eaquirstech.com/admin/print-templates",
+    "buttons": [
+      "Set as default",
+      "A4",
+      "Thermal 80mm",
+      "EN",
+      "UR",
+      "AR"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Choose the default template each document prints with — A4 and thermal both use it."
+    ],
+    "tabs": [],
+    "title": [
+      "Print Templates"
+    ]
+  },
+  {
+    "name": "Roles & Permissions",
+    "href": "https://ehms.eaquirstech.com/admin/roles",
+    "buttons": [
+      "New role"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "What each role can do. Pick a role and tick its capabilities. Seeded roles are read-only — clone one to customise."
+    ],
+    "tabs": [],
+    "title": [
+      "Roles & Permissions"
+    ]
+  },
+  {
+    "name": "Staff Users",
+    "href": "https://ehms.eaquirstech.com/admin/users",
+    "buttons": [
+      "New user",
+      "＋ Filter",
+      "Import / Export",
+      "Columns",
+      "▦ Table",
+      "▤ Cards",
+      "←",
+      "→"
+    ],
+    "columns": [
+      "USERNAME",
+      "FULL NAME",
+      "ROLES",
+      "LINKED TO",
+      "STATUS",
+      "Actions"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Who can sign in, as whom, and with which roles."
+    ],
+    "tabs": [
+      "▦ Table",
+      "▤ Cards"
+    ],
+    "title": [
+      "Staff Users"
+    ]
+  },
+  {
+    "name": "Dashboards",
+    "href": "https://ehms.eaquirstech.com/admin/dashboards",
+    "buttons": [],
+    "columns": [
+      "USER",
+      "DASHBOARD"
+    ],
+    "headings": [],
+    "labels": [],
+    "sub": [],
+    "tabs": [],
+    "title": [
+      "Dashboard assignments"
+    ]
+  },
+  {
+    "name": "Backup",
+    "href": "https://ehms.eaquirstech.com/admin/backups",
+    "buttons": [],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Download a full backup of the database to your computer."
+    ],
+    "tabs": [],
+    "title": [
+      "Database backup"
+    ]
+  },
+  {
+    "name": "Appearance",
+    "href": "https://ehms.eaquirstech.com/settings/appearance",
+    "buttons": [
+      "Comfortable",
+      "Compact",
+      "Custom",
+      "Theme default",
+      "English",
+      "اردو",
+      "العربية",
+      "Aa\nTheme default",
+      "Aa\nInter",
+      "Aa\nSpace Grotesk",
+      "Aa\nManrope",
+      "Aa\nDM Sans",
+      "Aa\nIBM Plex Serif",
+      "اب\nنستعلیق — Nastaliq",
+      "اب\nنسخ — Naskh",
+      "اب\nكوفي — Kufi",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nDaylight Teal✓\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nMidnight Slate\nAA\nDARK",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nRoyal Indigo\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nEmerald Ward\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nDesert Amber\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nRose Clinic\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nOcean Steel\nAA\nDARK",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nGraphite Mono\nAA\nDARK",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nIvory Classic\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nAurora Violet\nAA\nDARK",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nNordic Sky\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nLavender Calm\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nAzure\nAA\nLIGHT",
+      "HMS\nAction\nSTABLE\nWATCH\nCRITICAL\nDisplay Aa\nBody text sample · 0123456789\nCobalt\nAA\nLIGHT"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [],
+    "sub": [
+      "Your choice is saved to your profile — it follows you across devices."
+    ],
+    "tabs": [],
+    "title": [
+      "Appearance"
+    ]
+  },
+  {
+    "name": "My password",
+    "href": "https://ehms.eaquirstech.com/settings/profile",
+    "buttons": [
+      "Change password"
+    ],
+    "columns": [],
+    "headings": [],
+    "labels": [
+      "Current password",
+      "New password\nUse at least 8 characters, including a lowercase letter and a digit.",
+      "Confirm new password"
+    ],
+    "sub": [
+      "Update your own sign-in password."
+    ],
+    "tabs": [],
+    "title": [
+      "Change password"
+    ]
+  }
+]

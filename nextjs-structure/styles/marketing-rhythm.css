@@ -1,0 +1,90 @@
+/* Shared section rhythm for the public marketing pages. Content may grow taller
+   than the viewport so cards, forms and long timelines remain fully visible. */
+:is(.home-page,.features-page,.solutions-page,.about-page,.contact-page) > section {
+  min-height: 100svh;
+  display: grid;
+  align-content: center;
+  padding-block: clamp(48px,6svh,72px);
+}
+
+:is(.home-page,.features-page,.solutions-page,.about-page,.contact-page) > section :is(h1,h2):first-child {
+  margin-top: 0;
+}
+
+.home-page > .hero {
+  display: block;
+  height: max(680px,calc(100svh - 82px));
+  min-height: 0;
+  padding: 0;
+}
+
+.home-page > .hero .hero-content { padding-top: clamp(43px,6svh,70px); }
+.home-page > .hero h1 { margin-top: 0; }
+.home-page > .hospitals-section {
+  min-height: 0;
+  align-content: start;
+  padding-top: clamp(175px,21svh,220px);
+  padding-bottom: 52px;
+}
+
+.home-page > .solutions-section { padding-block: 0; }
+.home-page .flow-stage { padding-block: clamp(24px,4svh,42px); }
+.home-page .product-evidence { padding-top: clamp(48px,6svh,66px); padding-bottom: clamp(52px,7svh,76px); }
+
+:is(.features-page,.solutions-page,.about-page,.contact-page) > :is(.features-hero,.solutions-hero,.about-hero) {
+  min-height: max(560px,calc(100svh - 82px));
+  padding-block: 0;
+}
+
+:is(.features-page,.solutions-page,.about-page,.contact-page) > :is(.features-hero,.solutions-hero,.about-hero) > .container {
+  padding-block: clamp(55px,7svh,86px);
+}
+
+.features-page > .features-section { padding-block: 58px 72px; }
+.features-page .features-intro { margin-bottom: 34px; }
+.features-page .feature-timeline-item + .feature-timeline-item { margin-top: 20px; }
+
+.about-page > .about-connected,
+.about-page > .about-case-study,
+.contact-page > .contact-main-section { padding-block: clamp(56px,7svh,76px); }
+
+.contact-page > .contact-next { padding-block: clamp(55px,7svh,76px); }
+
+@media (max-width: 700px) {
+  :is(.home-page,.features-page,.solutions-page,.about-page,.contact-page) > section {
+    min-height: 100svh;
+    padding-block: 48px;
+  }
+
+  .home-page > .hero {
+    height: max(690px,calc(100svh - 70px));
+    padding: 0;
+  }
+
+  .home-page > .hero .hero-content { padding-top: 49px; }
+  .home-page > .hospitals-section { padding-top: 135px; padding-bottom: 42px; }
+  .home-page > .solutions-section { padding-block: 0; }
+  .home-page .flow-stage { padding-block: 24px 20px; }
+  .home-page .product-evidence { padding-block: 45px 58px; }
+
+  :is(.features-page,.solutions-page,.about-page,.contact-page) > :is(.features-hero,.solutions-hero,.about-hero) {
+    min-height: max(530px,calc(100svh - 70px));
+    padding: 0;
+  }
+
+  .features-page > .features-section { padding-block: 48px 60px; }
+  .features-page .features-intro { margin-bottom: 28px; }
+  .features-page .feature-timeline-item + .feature-timeline-item { margin-top: 14px; }
+  .features-page .features-journey-head { margin-bottom: 20px; }
+  .features-page .features-journey-grid { grid-template-columns: repeat(2,minmax(0,1fr)); row-gap: 17px; padding-top: 8px; padding-bottom: 0; }
+  .features-page .features-journey-card { padding: 7px 6px 10px; transform: none; }
+  .features-page .features-journey-number { width: 60px; height: 60px; font-size: 16px; }
+  .features-page .features-journey-card h3 { margin-top: 14px; font-size: 16px; }
+  .features-page .features-journey-card p { font-size: 11px; }
+  .features-page > .features-teams { padding-block: 27px; }
+  .features-page .features-teams-head { margin-bottom: 12px; }
+  .features-page .features-teams-grid { gap: 12px; }
+  .features-page .features-teams-grid article { padding: 16px 19px; }
+  .features-page .features-teams-grid h3 { margin-top: 12px; }
+  .features-page .features-teams-grid p { margin-bottom: 10px; line-height: 1.55; }
+}

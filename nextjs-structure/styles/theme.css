@@ -1,0 +1,103 @@
+.theme-toggle {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 78px;
+  height: 38px;
+  padding: 0 11px;
+  border: 1px solid #d5e8df;
+  border-radius: 8px;
+  background: #f5faf7;
+  color: #176b60;
+  font: 800 11px 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
+}
+.theme-toggle svg { width: 17px; height: 17px; flex: none; }
+.theme-toggle:hover { background: #e5f5ee; border-color: #89cbb6; box-shadow: 0 5px 14px rgba(9, 89, 73, .1); transform: translateY(-1px); }
+.theme-toggle:focus-visible { outline: 3px solid #f1b96a; outline-offset: 3px; }
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e9f5f0;
+  --muted: #adc5bc;
+  --canvas: #102521;
+  --line: #315249;
+  --teal: #72d9b6;
+  --teal-dark: #a2ebd0;
+  --mint: #183b32;
+}
+html[data-theme="dark"] body { background: #0c1e1b; color: #e9f5f0; }
+html[data-theme="dark"] .site-header { background: #102521; border-bottom-color: #29463d; }
+html[data-theme="dark"] .desktop-nav { color: #d1e7de; }
+html[data-theme="dark"] .desktop-nav a[aria-current="page"],
+html[data-theme="dark"] .desktop-nav a:hover { color: #8ce8c5; }
+html[data-theme="dark"] .original-brand-type small { color: #a8c2b7; }
+html[data-theme="dark"] .nav-cta { background: #167d70; border-color: #167d70; color: #fff; }
+html[data-theme="dark"] .nav-cta:hover { background: #20988a; }
+html[data-theme="dark"] .theme-toggle { background: #1a3831; border-color: #416c5c; color: #b7efd8; }
+html[data-theme="dark"] .theme-toggle:hover { background: #245246; border-color: #72d9b6; box-shadow: 0 5px 16px rgba(0, 0, 0, .2); }
+
+html[data-theme="dark"] :is(.features-section,.features-journey,.features-teams,.solutions-highlights,.solutions-services,.solutions-stories,.solutions-faq,.about-story,.about-connected,.about-case-study,.contact-main-section,.faq-section) { background: #0c1e1b; color: #e9f5f0; }
+html[data-theme="dark"] :is(.product-showcase,.contact-next) { background: #112923; color: #e9f5f0; }
+html[data-theme="dark"] :is(.preview-section,.flow-section,.flow-tree-section) { background-color: #112923; }
+html[data-theme="dark"] :is(.promise-section,.features-close,.solutions-journey,.solutions-about,.about-network-section,.footer) { background-color: #083e39; }
+html[data-theme="dark"] .footer { background-color: #092e2b; }
+
+html[data-theme="dark"] :is(.intro-section,.solutions-section,.doctor-section,.hospitals-section,.care-capabilities,.features-section,.features-journey,.features-teams,.solutions-highlights,.solutions-services,.solutions-stories,.solutions-faq,.about-story,.about-connected,.about-case-study,.contact-main-section,.contact-next,.faq-section,.product-showcase) :is(h2,h3) { color: #edf8f3; }
+html[data-theme="dark"] :is(.intro-section,.solutions-section,.doctor-section,.hospitals-section,.care-capabilities,.features-section,.features-journey,.features-teams,.solutions-highlights,.solutions-services,.solutions-stories,.solutions-faq,.about-story,.about-connected,.about-case-study,.contact-main-section,.contact-next,.faq-section,.product-showcase) p { color: #adc5bc; }
+html[data-theme="dark"] :is(.features-section,.features-journey,.features-teams,.solutions-highlights,.solutions-services,.solutions-stories,.solutions-faq,.about-story,.about-connected,.about-case-study,.contact-main-section,.contact-next,.faq-section,.product-showcase) :is(.section-kicker,.features-journey-head span,.feature-timeline-copy > span) { color: #86dfbe; }
+html[data-theme="dark"] :is(.doctor-copy h2 em,.preview-copy h2 span,.text-link,.doctor-link,.about-text-link) { color: #8ce8c5; }
+
+html[data-theme="dark"] :is(.doctor-feature,.doctor-overlay,.solution-card,.product-browser,.float-card,.showcase-floating,.hospital-logo,.faq-item,.faq-item[open],.solutions-story-card,.solutions-faq-list details,.contact-form,.contact-next-grid article,.contact-direct a,.about-globe-label,.about-case-portrait-note) { background: #17332c; border-color: #315249; color: #e9f5f0; }
+html[data-theme="dark"] :is(.feature-timeline-media,.solutions-services-media,.solutions-story-image,.solution-image) { background: #193a31; }
+html[data-theme="dark"] :is(.doctor-feature,.faq-item,.contact-direct a,.contact-next-grid article,.solution-card,.hospital-logo) :is(strong,h3,summary) { color: #edf8f3; }
+html[data-theme="dark"] :is(.doctor-feature,.faq-item,.contact-direct a,.contact-next-grid article,.solution-card,.hospital-logo) :is(p,small,.doctor-feature-copy > span) { color: #afc8bd; }
+html[data-theme="dark"] .doctor-feature:not(.is-active):hover { background: #245444; border-color: #72d9b6; box-shadow: 0 12px 28px rgba(0, 0, 0, .22); }
+html[data-theme="dark"] .doctor-feature.is-active { background: #0d8276; border-color: #28ad99; color: #fff; }
+html[data-theme="dark"] .doctor-feature.is-active:hover { background: #0a6d64; }
+html[data-theme="dark"] .doctor-feature.is-active .doctor-feature-copy > span { color: #e7f7f1; }
+html[data-theme="dark"] .solution-card:hover,
+html[data-theme="dark"] .contact-direct a:hover { background: #21473b; border-color: #67c9a8; }
+html[data-theme="dark"] .solution-card:hover { background: #21473b; }
+html[data-theme="dark"] .faq-item[open] { background: #1c3b32; border-color: #65bfa0; }
+html[data-theme="dark"] :is(.browser-top,.contact-context) { border-color: #36564b; }
+html[data-theme="dark"] :is(.feature-number,.doctor-overlay-icon,.float-icon,.faq-plus,.contact-direct-icon,.contact-next-grid article > span) { background: #275344; color: #9cebcf; }
+html[data-theme="dark"] .about-story-tags span { background: #1d4235; border-color: #35624e; color: #a8ecd0; }
+html[data-theme="dark"] .contact-direct strong { color: #edf8f3; }
+html[data-theme="dark"] .contact-field label { color: #dcefe5; }
+html[data-theme="dark"] :is(.contact-field input,.contact-field select,.contact-field textarea) { background-color: #102820; border-color: #3a6252; color: #f2fbf6; }
+html[data-theme="dark"] :is(.contact-field input,.contact-field textarea)::placeholder { color: #91aa9e; }
+html[data-theme="dark"] .contact-form-status { background: #1a4736; border-color: #448865; color: #d7f4e4; }
+html[data-theme="dark"] .contact-form-status a { color: #a7efd0; }
+html[data-theme="dark"] .features-timeline::before { background: linear-gradient(#294b3e, #4c9e7a 18%, #4c9e7a 82%, #294b3e); }
+html[data-theme="dark"] .features-journey-path path { stroke: #42735b; }
+html[data-theme="dark"] .features-journey-path .features-journey-path-motion { stroke: #8ce8c5; }
+html[data-theme="dark"] .features-teams-grid article { background: #0c766b; border-color: #238f7d; color: #fff; }
+html[data-theme="dark"] .features-teams-grid article:hover { background: #0a645b; }
+html[data-theme="dark"] .features-teams-grid article :is(h3,p,a) { color: #fff; }
+html[data-theme="dark"] :is(.solutions-benefit-card,.capability-card) { background: #0b766b; color: #fff; }
+html[data-theme="dark"] :is(.solutions-benefit-card,.capability-card) :is(h3,p) { color: #fff; }
+html[data-theme="dark"] .footer .original-brand-type small { color: #b7d9cf; }
+
+body, .site-header, section, article, .contact-form, .contact-direct a, .doctor-feature, .faq-item, .theme-toggle, .mobile-nav > nav, .contact-field input, .contact-field select, .contact-field textarea { transition-property: background-color, border-color, color, box-shadow, transform; transition-duration: .28s; transition-timing-function: ease; }
+@media (max-width: 700px) {
+  .theme-toggle { min-width: 34px; width: 34px; height: 34px; padding: 0; }
+  .theme-toggle span { display: none; }
+  html[data-theme="dark"] .mobile-nav > summary { border-color: #436858; }
+  html[data-theme="dark"] .mobile-nav > summary span { background: #b4efd6; }
+  html[data-theme="dark"] .mobile-nav > nav { background: #17332c; border-color: #315249; }
+  html[data-theme="dark"] .mobile-nav > nav > a { color: #e4f4ec; }
+  html[data-theme="dark"] .mobile-nav > nav > a:hover { background: #265344; color: #b4efd6; }
+}
+@media (max-width: 400px) {
+  .nav-wrap { gap: 7px; }
+  .original-brand-type small { display: none; }
+  .nav-cta { padding-inline: 8px; }
+  .nav-cta span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body, .site-header, section, article, .contact-form, .contact-direct a, .doctor-feature, .faq-item, .theme-toggle, .mobile-nav > nav, .contact-field input, .contact-field select, .contact-field textarea { transition: none; }
+}

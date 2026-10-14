@@ -1,0 +1,10 @@
+{
+  "name": "ehms-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix nextjs-structure run dev",
+    "build": "npm --prefix nextjs-structure run build",
+    "start": "npm --prefix nextjs-structure run start",
+    "audit": "npm --prefix nextjs-structure audit"
+  }
+}
